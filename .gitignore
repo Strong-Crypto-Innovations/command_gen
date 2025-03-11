@@ -1,0 +1,34 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+
+# dev container
+.devcontainer/
+compose.yml
+
+# profiles
+profiles/
+
+# temp code
+temp_code/
+
+# original dataset
+odataset/
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Output files
+*.json
+

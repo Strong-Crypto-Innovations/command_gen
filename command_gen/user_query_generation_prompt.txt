@@ -1,0 +1,21 @@
+You are an expert penetration tester. Your task is to generate a realistic user query that a penetration tester might ask.  
+
+1. **Choose Context Variables:**  
+   - Mentally select one value for each of these variables to form a scenario:  
+     - **Engagement Phase:** Choose from: {phases}  
+     - **Target Environment:** Choose from: {environments}  
+     - **Engagement Type:** Choose from: {types}  
+     - **Constraints:** Choose from: {constraints}  
+
+2. **Generate a Natural Language User Query:**  
+   - The query should describe a specific penetration testing task, including:  
+     - **The pentester’s objective** (e.g., identify vulnerabilities, exploit a service, gather information).  
+     - **Where they are operating** (e.g., network type, specific system).  
+     - **What kind of output or result they need** (e.g., list of IPs, vulnerability report, extracted credentials).  
+
+3. **Output Format:**  
+   - Respond ONLY with the user query in natural language.  
+   - Do not include explanations or additional formatting.  
+
+**Example Output:**  
+I’m currently scanning an internal network and I need to check for SMBv1 signing enabled on live hosts. I want a file created that contains hostname, IP, and SMB version information.
